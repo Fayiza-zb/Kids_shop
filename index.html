@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Little Cart – Kids Shopping Website</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="/"><span>Little</span>Cart</a>
+  <input id="search" class="search" type="search" placeholder="Search toys, clothes, shoes…" aria-label="Search products">
+  <button id="openCart" class="btn alt cartbtn">Cart<span id="count" class="badge">0</span></button>
+</header>
+<main>
+  <section class="hero">
+    <div>
+      <h1>Everything for your little one, in one place</h1>
+      <p>Clothing, toys, footwear and accessories. Compare prices and check stock without visiting five stores.</p>
+    </div>
+    <div class="big" aria-hidden="true">🧸</div>
+  </section>
+  <div id="chips" class="chips" role="group" aria-label="Categories"></div>
+  <div id="grid" class="grid"></div>
+</main>
+
+<aside id="drawer" class="drawer" aria-label="Shopping cart">
+  <div class="row"><h2>Your cart</h2><button id="closeCart" class="btn ghost small">Close</button></div>
+  <div id="lines"></div>
+  <div class="total"><span>Total</span><span id="total">₹0.00</span></div>
+  <div id="checkout">
+    <label>Parent / guardian name<input id="cname" autocomplete="name"></label>
+    <label>Phone<input id="cphone" type="tel" autocomplete="tel"></label>
+    <label>Delivery address<input id="caddr" autocomplete="street-address"></label>
+    <button id="place" class="btn" style="width:100%">Place order</button>
+  </div>
+  <div id="msg" role="status"></div>
+</aside>
+<script src="/shop.js"></script>
+</body>
+</html>

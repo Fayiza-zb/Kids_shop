@@ -1,0 +1,32 @@
+1|Cotton Rainbow T-Shirt|Clothing|499|40|👕
+2|Denim Dungarees|Clothing|999|18|👖
+3|Fleece Hoodie|Clothing|1199|22|🧥
+4|Party Frock|Clothing|1499|10|👗
+5|Printed Night Suit Set|Clothing|599|35|🛌
+6|Cotton Shorts (Pack of 3)|Clothing|449|45|🩳
+7|Woolen Sweater|Clothing|849|20|🧶
+8|Kurta Pajama Set|Clothing|1299|14|👘
+9|Baby Romper (Pack of 2)|Clothing|549|30|🍼
+10|Wooden Building Blocks (50 pcs)|Toys|799|30|🧱
+11|Plush Teddy Bear|Toys|649|25|🧸
+12|Remote Control Car|Toys|1599|12|🚗
+13|Jigsaw Puzzle – Zoo|Toys|399|35|🧩
+14|Kitchen Play Set|Toys|899|16|🍳
+15|Doctor Play Kit|Toys|549|20|🩺
+16|Musical Xylophone|Toys|449|28|🎵
+17|Board Game – Ludo & Snakes|Toys|299|40|🎲
+18|Football (Size 3)|Toys|379|32|⚽
+19|Art & Colouring Kit|Toys|499|38|🎨
+20|Toy Train Set|Toys|1299|9|🚂
+21|Light-Up Sneakers|Footwear|1099|20|👟
+22|Rubber Rain Boots|Footwear|699|15|🥾
+23|School Shoes (Black)|Footwear|899|30|👞
+24|Soft Sole Baby Booties|Footwear|299|40|👶
+25|Kids Sandals|Footwear|549|26|🩴
+26|School Backpack|Accessories|899|28|🎒
+27|Sun Hat|Accessories|249|50|👒
+28|Insulated Water Bottle|Accessories|399|44|🧴
+29|Lunch Box with Bag|Accessories|349|36|🍱
+30|Hair Clips & Bands Set|Accessories|149|60|🎀
+31|Kids Sunglasses|Accessories|299|24|🕶️
+32|Pencil Box & Stationery Set|Accessories|249|48|✏️

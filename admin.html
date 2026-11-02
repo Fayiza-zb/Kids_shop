@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Little Cart – Admin</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="/"><span>Little</span>Cart admin</a>
+  <span style="flex:1"></span>
+  <a class="btn ghost small" href="/" style="text-decoration:none">View shop</a>
+  <button id="logout" class="btn ghost small" hidden>Sign out</button>
+</header>
+<main>
+  <div id="login" class="login">
+    <h2 style="margin-top:0">Admin sign in</h2>
+    <label>Password<input id="pw" type="password" autocomplete="current-password"></label>
+    <button id="go" class="btn" style="width:100%">Sign in</button>
+    <div id="lmsg" role="status"></div>
+  </div>
+
+  <div id="panel" hidden>
+    <div class="tabs">
+      <button class="btn" id="tProducts">Products</button>
+      <button class="btn ghost" id="tOrders">Orders</button>
+    </div>
+    <div id="msg" role="status"></div>
+
+    <section id="products">
+      <div class="form">
+        <input type="hidden" id="pid" value="0">
+        <label>Name<input id="pname"></label>
+        <label>Category<input id="pcat" list="cats"></label>
+        <datalist id="cats"></datalist>
+        <label>Price (₹)<input id="pprice" type="number" min="0" step="0.01"></label>
+        <label>Stock<input id="pstock" type="number" min="0" step="1"></label>
+        <label>Icon (emoji)<input id="picon" maxlength="4"></label>
+        <div style="align-self:end;margin-bottom:10px;display:flex;gap:8px">
+          <button id="save" class="btn">Save product</button>
+          <button id="clear" class="btn ghost">Clear</button>
+        </div>
+      </div>
+      <div class="scroll"><table><thead><tr><th></th><th>Name</th><th>Category</th><th>Price</th><th>Stock</th><th></th></tr></thead>
+      <tbody id="ptable"></tbody></table></div>
+    </section>
+
+    <section id="orders" hidden>
+      <div class="scroll"><table><thead><tr><th>#</th><th>Customer</th><th>Items</th><th>Total</th><th>Status</th></tr></thead>
+      <tbody id="otable"></tbody></table></div>
+    </section>
+  </div>
+</main>
+<script src="/admin.js"></script>
+</body>
+</html>
